@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+    paths: ".github/workflows/deploy-prod1.yml"
 
 env:
   DOCKER_IMAGE_NAME: lathiya86-azure-ttt # Must not exist as a package associated with a different repo!
